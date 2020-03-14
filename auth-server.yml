@@ -28,7 +28,7 @@ spring:
 
   jpa:
     database-platform: org.hibernate.dialect.MySQL5Dialect
-    show-sql: false
+    show-sql: true
     hibernate:
       ddl-auto: create
 
@@ -46,7 +46,7 @@ spring:
 
   jpa:
     database-platform: org.hibernate.dialect.MySQL5Dialect
-    show-sql: false
+    show-sql: true
     hibernate:
       ddl-auto: create
 eureka:
